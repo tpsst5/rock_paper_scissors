@@ -1,0 +1,94 @@
+html {
+    font-size: 10px;
+    background: url('https://1.bp.blogspot.com/-Vhk3keyEjX0/T4vr0iBu_9I/AAAAAAAAAoM/8XanzvlN74I/s1600/Crumpled+white+paper-texture+2.jpg') bottom center;
+    background-size: cover;
+  }
+
+ body {
+    margin: 0;
+    padding: 0;
+ }
+
+ #wins {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+ }
+
+ #losses {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 100;
+ }
+
+ #score {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .rockImg {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 15%;
+ }
+
+ .paperImg {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20%;
+ }
+
+ .scissorsImg {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-top: -20%;
+ }
+ 
+ .images img {
+     width: 20%;
+     height: auto;
+ }
+
+ .container {
+     text-align: center;
+     margin-top: 40px;
+ }
+
+ .btn {
+     border: 1px solid #a52a2a;
+     background: none;
+     padding: 10px 20px;
+     font-size: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     cursor: pointer;
+     margin: 10px;
+     transition: 0.2s;
+ }
+
+ .rock, .paper, .scissors {
+     color: a52a2a;
+ }
+
+ .rock:hover, .paper:hover, .scissors:hover {
+     color: #0f479cc0;
+ }
+
+#status {
+    font-size: 40px;
+    color: #0f479cc0;
+    background: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
