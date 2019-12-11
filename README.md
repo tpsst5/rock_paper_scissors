@@ -3,7 +3,7 @@
 ## General Information:
 This project was complete following The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors).
 ## Screenshot:
-![rock paper scissors screenshot](rps_screenshot.png)
+![rock paper scissors screenshot](images/rps_screenshot.png)
 ## Technologies:
 - HTML
 - CSS
